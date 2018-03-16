@@ -1,17 +1,17 @@
 #Internal package file, do not edit.
-#Tue Mar 13 12:43:51 EDT 2018
-2.base=E\:\\ArtApp\\testing\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+#Fri Mar 16 12:22:15 EDT 2018
+2.base=C\:\\Users\\BT_1N3_02\\AndroidStudioProjects\\SymposiumApp\\testing\\build\\intermediates\\transforms\\dexMerger\\debug\\19
 5.set=DEX
 0.path=classes.dex
 2.baseType=DIRECTORY
-3.base=E\:\\ArtApp\\testing\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+3.base=C\:\\Users\\BT_1N3_02\\AndroidStudioProjects\\SymposiumApp\\testing\\build\\intermediates\\transforms\\dexMerger\\debug\\21
 2.set=DEX
 1.path=classes.dex
-4.base=E\:\\ArtApp\\testing\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+4.base=C\:\\Users\\BT_1N3_02\\AndroidStudioProjects\\SymposiumApp\\testing\\build\\intermediates\\transforms\\dexMerger\\debug\\20
 count=6
 5.baseType=DIRECTORY
 2.path=classes.dex
-5.base=E\:\\ArtApp\\testing\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+5.base=C\:\\Users\\BT_1N3_02\\AndroidStudioProjects\\SymposiumApp\\testing\\build\\intermediates\\transforms\\dexMerger\\debug\\23
 4.set=DEX
 3.path=classes.dex
 3.baseType=DIRECTORY
@@ -19,9 +19,9 @@ count=6
 4.path=classes.dex
 1.baseType=DIRECTORY
 5.path=classes.dex
-0.base=E\:\\ArtApp\\testing\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+0.base=C\:\\Users\\BT_1N3_02\\AndroidStudioProjects\\SymposiumApp\\testing\\build\\intermediates\\transforms\\dexMerger\\debug\\22
 0.baseType=DIRECTORY
 3.set=DEX
-1.base=E\:\\ArtApp\\testing\\build\\intermediates\\transforms\\dexMerger\\debug\\16
+1.base=C\:\\Users\\BT_1N3_02\\AndroidStudioProjects\\SymposiumApp\\testing\\build\\intermediates\\transforms\\dexMerger\\debug\\18
 4.baseType=DIRECTORY
 0.set=DEX
