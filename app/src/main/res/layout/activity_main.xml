@@ -55,6 +55,7 @@
 
     <ImageView
         android:id="@+id/img"
+        android:src="@drawable/flower1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_below="@+id/message"
@@ -65,7 +66,7 @@
         android:adjustViewBounds="true"
         android:clickable="true"
         android:focusable="true"
-        android:src="@drawable/flower1" />
+        />
 
     <ImageView
         android:id="@+id/img2"
