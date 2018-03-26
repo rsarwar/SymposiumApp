@@ -26,6 +26,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.bt_1n3_02.artapp.AddActivity"
+            android:label="@string/title_activity_add"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="android.support.VERSION"
