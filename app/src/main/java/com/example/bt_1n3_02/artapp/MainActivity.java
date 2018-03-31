@@ -1,6 +1,5 @@
 package com.example.bt_1n3_02.artapp;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -10,17 +9,12 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.Gallery;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity {
 
-    private Integer[] images = {R.drawable.flower1, R.drawable.flower2, R.drawable.tiger};
+    private Integer[] images = {R.drawable.drawing1, R.drawable.drawing2, R.drawable.drawing3};
     private ImageView imgview;
     private TextView mTextMessage;
 
