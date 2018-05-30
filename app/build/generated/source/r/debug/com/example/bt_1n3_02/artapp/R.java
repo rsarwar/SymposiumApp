@@ -3737,8 +3737,8 @@ public final class R {
     public static final int abc_search_dropdown_item_icons_2line=0x7f0a0018;
     public static final int abc_search_view=0x7f0a0019;
     public static final int abc_select_dialog_material=0x7f0a001a;
-    public static final int activity_main=0x7f0a001b;
-    public static final int add=0x7f0a001c;
+    public static final int activity_add=0x7f0a001b;
+    public static final int activity_main=0x7f0a001c;
     public static final int app_bar_add=0x7f0a001d;
     public static final int content_add=0x7f0a001e;
     public static final int design_bottom_navigation_item=0x7f0a001f;
@@ -3778,8 +3778,8 @@ public final class R {
     public static final int tooltip=0x7f0a0041;
   }
   public static final class menu {
-    public static final int add=0x7f0b0000;
-    public static final int add_drawer=0x7f0b0001;
+    public static final int activity_add_drawer=0x7f0b0000;
+    public static final int add=0x7f0b0001;
     public static final int navigation=0x7f0b0002;
   }
   public static final class mipmap {

@@ -1032,8 +1032,8 @@ int layout abc_screen_toolbar 0x7f0a0017
 int layout abc_search_dropdown_item_icons_2line 0x7f0a0018
 int layout abc_search_view 0x7f0a0019
 int layout abc_select_dialog_material 0x7f0a001a
-int layout activity_main 0x7f0a001b
-int layout add 0x7f0a001c
+int layout activity_add 0x7f0a001b
+int layout activity_main 0x7f0a001c
 int layout app_bar_add 0x7f0a001d
 int layout content_add 0x7f0a001e
 int layout design_bottom_navigation_item 0x7f0a001f
@@ -1071,8 +1071,8 @@ int layout select_dialog_multichoice_material 0x7f0a003e
 int layout select_dialog_singlechoice_material 0x7f0a003f
 int layout support_simple_spinner_dropdown_item 0x7f0a0040
 int layout tooltip 0x7f0a0041
-int menu add 0x7f0b0000
-int menu add_drawer 0x7f0b0001
+int menu activity_add_drawer 0x7f0b0000
+int menu add 0x7f0b0001
 int menu navigation 0x7f0b0002
 int mipmap ic_launcher 0x7f0c0000
 int mipmap ic_launcher_round 0x7f0c0001
