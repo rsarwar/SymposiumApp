@@ -17,6 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="125dp"
+            android:layout_marginTop="10dp"
             android:text="Featured"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="@color/colorPrimaryDark"
@@ -38,13 +39,12 @@
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/floatingActionButton"
-            android:layout_width="42dp"
-            android:layout_height="42dp"
-            android:layout_below="@+id/message"
-            android:layout_marginLeft="38dp"
-            android:layout_marginStart="38dp"
-            android:layout_toEndOf="@+id/message"
-            android:layout_toRightOf="@+id/message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gallery"
+            android:layout_marginTop="29dp"
+            android:layout_toEndOf="@+id/img"
+            android:layout_toRightOf="@+id/img"
             android:clickable="true"
             app:srcCompat="@drawable/plus"
             tools:layout_editor_absoluteX="311dp"
@@ -57,42 +57,49 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/img"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_alignLeft="@+id/img2"
-            android:layout_alignStart="@+id/img2"
-            android:layout_below="@+id/message"
-            android:layout_marginTop="46dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/floatingActionButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
             android:adjustViewBounds="true"
             android:clickable="true"
             android:focusable="true"
+            android:scaleType="centerCrop"
             android:src="@drawable/drawing1" />
 
         <ImageView
+            android:id="@+id/expanded_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"/>
+
+        <ImageButton
             android:id="@+id/img2"
-            android:layout_width="250dp"
-            android:layout_height="300dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_below="@+id/img"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="14dp"
+            android:layout_marginTop="17dp"
             android:adjustViewBounds="true"
             android:clickable="true"
-            android:onClick= "clickImg"
             android:focusable="true"
+            android:scaleType="centerCrop"
             android:src="@drawable/drawing2" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/img3"
-            android:layout_width="250dp"
-            android:layout_height="300dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_alignLeft="@+id/img2"
             android:layout_alignStart="@+id/img2"
             android:layout_below="@+id/img2"
-            android:adjustViewBounds="true"
+            android:layout_marginTop="19dp"
             android:clickable="true"
             android:focusable="true"
+            android:scaleType="centerCrop"
             android:src="@drawable/drawing3" />
 
     </RelativeLayout>
