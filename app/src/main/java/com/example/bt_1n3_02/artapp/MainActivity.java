@@ -20,7 +20,6 @@ import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import static android.support.v4.content.ContextCompat.startActivity;
 
 public class MainActivity extends AppCompatActivity{
@@ -49,7 +48,7 @@ public class MainActivity extends AppCompatActivity{
         }
     };
 
-   @Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -67,49 +66,64 @@ public class MainActivity extends AppCompatActivity{
                 Intent intent = new Intent(MainActivity.this, AddActivity.class);
                 startActivity(intent);
 
-                }
-            });
-
             }
+        });
+        final View imgView = findViewById(R.id.img);
+        imgView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                zoomImageFromThumb(imgView, R.drawable.drawing1);
+            }
+        });
 
-    public class ZoomActivity extends FragmentActivity {
-        // Hold a reference to the current animator,
-        // so that it can be canceled mid-way.
-        private Animator mCurrentAnimator;
+        final View img2View = findViewById(R.id.img2);
+        img2View.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                zoomImageFromThumb(img2View, R.drawable.drawing2);
+            }
+        });
 
-        // The system "short" animation time duration, in milliseconds. This
-        // duration is ideal for subtle animations or animations that occur
-        // very frequently.
-        private int mShortAnimationDuration;
+        final View img3View = findViewById(R.id.img3);
+        img3View.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                zoomImageFromThumb(img3View, R.drawable.drawing3);
+            }
+        });
 
-        @Override
-        protected void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_main);
-
-            // Hook up clicks on the thumbnail views.
-
-            final View imgView = findViewById(R.id.img);
-            imgView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    zoomImageFromThumb(imgView, R.drawable.drawing1);
-                }
-            });
-
-            // Retrieve and cache the system's default "short" animation time.
-            mShortAnimationDuration = getResources().getInteger(
-                    android.R.integer.config_shortAnimTime);
-        }
+      /* Resources r = getResources();
+       Drawable[] layers = new Drawable[2];
+       layers[0] = r.getDrawable(R.drawable.drawing1);
+       layers[1] = r.getDrawable(R.drawable.drawing2);
+       LayerDrawable layers2 = new LayerDrawable(layers);
+       ImageButton testimage = null;
+       testimage.setImageDrawable(layers2);*/
     }
+    // Hold a reference to the current animator,
+    // so that it can be canceled mid-way.
+    Animator mCurrentAnimator;
+
+    // The system "short" animation time duration, in milliseconds. This
+    // duration is ideal for subtle animations or animations that occur
+    // very frequently.
+    int mShortAnimationDuration;
+
+    // Retrieve and cache the system's default "short" animation time.
+        /*mShortAnimationDuration = getResources().
+
+        getInteger(android.R.integer.config_shortAnimTime) {
+
+        }*/
+
 
     private void zoomImageFromThumb(final View thumbView, int imageResId) {
         // If there's an animation in progress, cancel it
         // immediately and proceed with this one.
 
-        Animator mCurrentAnimator;
-        if (mCurrentAnimator != null) {
-            mCurrentAnimator.cancel();
+        final Animator[] mCurrentAnimator = new Animator[1];
+        if (mCurrentAnimator[0] != null) {
+            mCurrentAnimator[0].cancel();
         }
 
         // Load the high-resolution "zoomed-in" image.
@@ -138,7 +152,7 @@ public class MainActivity extends AppCompatActivity{
         // bounds using the "center crop" technique. This prevents undesirable
         // stretching during the animation. Also calculate the start scaling
         // factor (the end scaling factor is always 1.0).
-        float startScale;
+        float startScale = 150;
         if ((float) finalBounds.width() / finalBounds.height()
                 > (float) startBounds.width() / startBounds.height()) {
             // Extend start bounds horizontally
@@ -185,16 +199,16 @@ public class MainActivity extends AppCompatActivity{
         set.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {
-                mCurrentAnimator = null;
+                mCurrentAnimator[0] = null;
             }
 
             @Override
             public void onAnimationCancel(Animator animation) {
-                mCurrentAnimator = null;
+                mCurrentAnimator[0] = null;
             }
         });
         set.start();
-        mCurrentAnimator = set;
+        mCurrentAnimator[0] = set;
 
         // Upon clicking the zoomed-in image, it should zoom back down
         // to the original bounds and show the thumbnail instead of
@@ -203,8 +217,8 @@ public class MainActivity extends AppCompatActivity{
         expandedImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (mCurrentAnimator != null) {
-                    mCurrentAnimator.cancel();
+                if (mCurrentAnimator[0] != null) {
+                    mCurrentAnimator[0].cancel();
                 }
 
                 // Animate the four positioning/sizing properties in parallel,
@@ -228,26 +242,27 @@ public class MainActivity extends AppCompatActivity{
                     public void onAnimationEnd(Animator animation) {
                         thumbView.setAlpha(1f);
                         expandedImageView.setVisibility(View.GONE);
-                        mCurrentAnimator = null;
+                        mCurrentAnimator[0] = null;
                     }
 
                     @Override
                     public void onAnimationCancel(Animator animation) {
                         thumbView.setAlpha(1f);
                         expandedImageView.setVisibility(View.GONE);
-                        mCurrentAnimator = null;
+                        mCurrentAnimator[0] = null;
                     }
                 });
                 set.start();
-                mCurrentAnimator = set;
+                mCurrentAnimator[0] = set;
             }
         });
     }
+}
+
+
     /*public void clickImg()
     {
         imgview.setHovered(true);
         imgview.setScaleX(50);
         imgview.setScaleY(50);
     }*/
-
-        }
