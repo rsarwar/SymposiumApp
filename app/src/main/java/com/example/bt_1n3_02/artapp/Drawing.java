@@ -9,14 +9,14 @@ import android.graphics.Path;
 public class Drawing {
 
     public int color;
-    public boolean enboss;
+    public boolean emboss;
     public boolean blur;
     public int strokeWidth;
     public Path path;
 
-    public Drawing(int color, boolean enboss, boolean blur, int strokeWidth, Path path) {
+    public Drawing(int color, boolean emboss, boolean blur, int strokeWidth, Path path) {
         this.color = color;
-        this.enboss = enboss;
+        this.emboss = emboss;
         this.blur = blur;
         this.strokeWidth = strokeWidth;
         this.path = path;
