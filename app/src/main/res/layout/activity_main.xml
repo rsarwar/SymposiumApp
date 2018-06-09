@@ -43,6 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/gallery"
             android:layout_marginTop="29dp"
+            android:layout_marginLeft="30dp"
             android:layout_toEndOf="@+id/img"
             android:layout_toRightOf="@+id/img"
             android:clickable="true"
