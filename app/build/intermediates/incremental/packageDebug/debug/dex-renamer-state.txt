@@ -1,4 +1,4 @@
-#Sat Jun 09 17:11:55 EDT 2018
-base.0=C\:\\Users\\Zahirul\\StudioProjects\\SymposiumApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\38
+#Thu Jun 14 15:38:31 EDT 2018
+base.0=C\:\\Users\\Zahirul\\StudioProjects\\SymposiumApp2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\38
 path.0=classes.dex
 renamed.0=classes.dex
