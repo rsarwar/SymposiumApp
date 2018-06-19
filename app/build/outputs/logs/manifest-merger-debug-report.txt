@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\BT_1N3_04\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\2e99145f9143055d5947d39d247e1e82\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\BT_1N3_04\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\52b3e8ac5fb748de776144fcbcab3b07\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\BT_1N3_04\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7da0a767a5df92cc6eb008470b58ff9b\AndroidManifest.xml:2:1-11:12
@@ -18,20 +18,20 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\BT_1N3_04\.
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\BT_1N3_04\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\3a9d9f316026184ce096ef66dc560347\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\BT_1N3_04\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2e38c268412720feccdb810b11edc0c7\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\BT_1N3_04\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\261e228559731d162fc8990f566346f1\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-39:12
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-39:12
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:2:11-69
@@ -48,7 +48,7 @@ ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\A
 	android:name
 		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:8:22-69
 application
-ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:10:5-37:19
+ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:10:5-43:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\BT_1N3_04\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\2e99145f9143055d5947d39d247e1e82\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\BT_1N3_04\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\2e99145f9143055d5947d39d247e1e82\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\BT_1N3_04\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\52b3e8ac5fb748de776144fcbcab3b07\AndroidManifest.xml:25:5-29:19
@@ -82,51 +82,51 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\BT_1N3_04\.gradle\ca
 	android:label
 		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:14:9-46
 	android:icon
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:12:9-41
 	android:allowBackup
 		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
 		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:16:9-40
 activity#com.example.bt_1n3_02.artapp.MainActivity
-ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:17:9-19:57
+ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:17:9-21:20
 	android:label
 		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:19:13-45
 	android:name
 		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:18:13-41
 activity#com.example.bt_1n3_02.artapp.LoginActivity
-ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:20:9-28:20
+ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:22:9-30:20
 	android:label
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:22:13-57
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:24:13-38
 	android:name
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:21:13-42
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:23:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.example.bt_1n3_02.artapp.PaintActivity
-ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:29:9-32:68
+ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:31:9-36:20
 	android:label
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:31:13-57
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:33:13-57
 	android:theme
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:32:13-56
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:34:13-56
 	android:name
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:30:13-42
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:32:13-42
 activity#com.example.bt_1n3_02.artapp.AddActivity
-ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:33:9-36:68
+ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:37:9-42:20
 	android:label
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:35:13-55
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:39:13-55
 	android:theme
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:36:13-56
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:34:13-40
+		ADDED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml:38:13-40
 uses-sdk
 INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\BT_1N3_04\AndroidStudioProjects\SymposiumApp2\app\src\main\AndroidManifest.xml
