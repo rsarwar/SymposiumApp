@@ -266,3 +266,4 @@ public class MainActivity extends AppCompatActivity{
         imgview.setScaleX(50);
         imgview.setScaleY(50);
     }*/
+

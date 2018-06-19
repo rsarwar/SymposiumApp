@@ -7,23 +7,20 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.bt_1n3_02.artapp.AddActivity"
     tools:showIn="@layout/app_bar_add">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tap to Create Here!"
-            android:layout_centerInParent="true"
-            tools:layout_editor_absoluteX="108dp"
-            tools:layout_editor_absoluteY="182dp"
-            android:clickable="true"
-
-            />
-    </RelativeLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="199dp"
+        android:text="Tap to Create"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="205dp" />
+</RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
